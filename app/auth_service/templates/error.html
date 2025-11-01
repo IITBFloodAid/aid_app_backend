@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Error Page :(</title>
+</head>
+<body>
+    <h1 style="color:red;">Error</h1>
+    <p>{{ message }}</p>
+    <a href="{{ url_for('auth.login') }}">Go back to login page</a>
+    <a href="{{ url_for('auth.register') }}">Go back to register page</a>
+</body>
+</html>
