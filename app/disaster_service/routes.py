@@ -1,6 +1,6 @@
 from app.disaster_service import disaster
 from flask import request, jsonify, current_app
-from werkzeug.exceptions import InternalServerError, BadRequest, Conflict
+from werkzeug.exceptions import InternalServerError, BadRequest
 from app.models import user_disaster_model
 from datetime import datetime, timedelta, timezone
 import requests
