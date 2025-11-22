@@ -75,7 +75,7 @@
 	}, 200 / 401
 	```
 
-### `info-service/get_requests/<string:username> 
+### `info/get_requests/<string:username> 
 * This is a get request
 - query param, opened = 1 then give open requests
 - Response format (sorted priority-wise):
@@ -95,7 +95,7 @@
 	 ``` 
 - Will send 400 if the request is bad.
 
-### `info-service/get_common_requests
+### `info/get_common_requests
 - This gives all the requests of all the users that are opened.
 - Request format:
 	 ```
@@ -136,7 +136,7 @@
    ```
 - Will send 400 if the request is bad.
 
-### `info-service/get_user_detail/<string:username>:
+### `info/get_user_detail/<string:username>:
  - Response format:
 	```
 	   {
@@ -244,3 +244,13 @@
 	}
 } 200
 ```
+llm/get_llm_response
+Request:
+{
+	"message": "i am in flood what to do?"
+}
+
+Response:
+{
+	"message": "Move to higher ground immediately. Avoid walking or driving through floodwater. Turn off electricity and gas. Contact Disaster Management Helpline: 1078 or 112 (emergency). For aid, reach All India Disaster Mitigation Institute (aidmi.org) or Rapid Response (rapidresponse.org.in, helpline: 1800 120 44004).Stay tuned to local weather updates via IMD (mausam.imd.gov.in). Use dry clothes, boil water, and avoid contaminated food. For medical help, dial 108 (ambulance). NGOs like Goonj (goonj.org) and Hindrise (hindrise.org) distribute relief kits—register online or via helpline."
+}

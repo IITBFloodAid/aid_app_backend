@@ -13,8 +13,10 @@ def create_app():
     from app.auth_service import auth
     from app.disaster_service import disaster
     from app.info_service import info
+    from app.llm_service import llm
     app.register_blueprint(auth, url_prefix='/auth')
     app.register_blueprint(disaster, url_prefix='/disaster')
     app.register_blueprint(info, url_prefix='/info')
+    app.register_blueprint(llm, url_prefix='/llm')
     
     return app
