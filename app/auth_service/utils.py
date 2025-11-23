@@ -78,7 +78,7 @@ def store_otp(username: str, hashed: str, expiry: int, mode: str):
     mongo.db.otp_data.insert_one(doc)
 
 def check_otp(username: str, otp: str, mode: str):
-    hashed_otp = hashlib.sha256(otp.encode()).hexdigest()
+    hashed_otp = hashlib.sha256(str(otp).encode()).hexdigest()
 
     doc = mongo.db.otp_data.find_one({
         "username": username,
