@@ -6,7 +6,7 @@ from .config import *
 def create_app():
     app = Flask(__name__)
 
-    CORS(app)
+    CORS(app, resources={r"/*": {"origins": "*"}})
     init_db(app)
     app.config["SECRET_KEY"] = SECRET_KEY
     
