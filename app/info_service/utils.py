@@ -11,7 +11,7 @@ def find_valid_requests(username: str, is_resolved):
                 "is_resolved": is_resolved
             },
             {
-                "_id": 0,
+                "_id": 1,
                 "username": 1,
                 "phone": 1,
                 "message": 1,
@@ -19,7 +19,11 @@ def find_valid_requests(username: str, is_resolved):
                 "created_at": 1,
                 "priority_count": 1,
                 "priority_updated_at": 1,
-                "active_responders": 1
+                "active_responders": 1,
+                "latitude": 1,
+                "longitude": 1,
+                "location": 1,
+                "location_hint": 1
             }
         )
         return list(open_requests)
@@ -33,16 +37,19 @@ def find_common_requests():
                 "is_resolved": False
             },
             {
-                "_id": 0,
+                "_id": 1,
                 "username": 1,
                 "phone": 1,
                 "message": 1,
                 "disaster_type": 1,
                 "created_at": 1,
+                "priority_count": 1,
                 "priority_updated_at": 1,
                 "active_responders": 1,
                 "latitude": 1,
-                "longitude": 1
+                "longitude": 1,
+                "location": 1,
+                "location_hint": 1
             }
         )
         return list(open_requests)

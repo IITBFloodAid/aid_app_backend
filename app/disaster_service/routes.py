@@ -97,7 +97,7 @@ def report_disaster():
             write_request(disaster_doc)
             update_db("_id", user["_id"], "meta.total_active_requests", active_req+1)
             update_db("_id", user["_id"], "meta.total_requests_made", total_req+1)
-            return jsonify({"message": f"The disaster request has been added with id {disaster_doc["_id"]}"})
+            return jsonify({"message": f"The disaster request has been added with id {disaster_doc['_id']}"})
         else:
             return jsonify({"message": f"User has already three open requests, cancel one to make a new request"}), 429
     except Exception as e:
