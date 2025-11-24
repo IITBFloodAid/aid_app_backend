@@ -1,0 +1,486 @@
+[
+    {
+        "title": "Thunderstorm with Light to Moderate Rain is likely to occur at isolated places over Kanniyakumari, Ramanathapuram, Ghat areas of Coimbatore,  Tenkasi and  Tirunelveli districts of Tamilnadu in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-25T01:02:30+05:30",
+        "areas": "Coimbatore, Kanniyakumari, Ramanathapuram, Tenkasi, Tirunelveli districts of Tamil Nadu",
+        "first_coord": [
+            8.139651,
+            77.585258
+        ]
+    },
+    {
+        "title": "Thunderstorm with Light to moderate Rain is likely to occur at isolated places over Coimbatore, Dindigul, Kanniyakumari, Karur, Namakkal, Perambalur, Ramanathapuram, Tenkasi, The Nilgiris, Thoothukkudi, Tirunelveli, Tiruppur in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-24T22:09:05+05:30",
+        "areas": "Coimbatore, Dindigul, Kanniyakumari, Karur, Namakkal, Perambalur, Ramanathapuram, Tenkasi, The Nilgiris, Thoothukkudi, Tirunelveli, Tiruppur districts of Tamil Nadu",
+        "first_coord": [
+            11.375721,
+            79.174468
+        ]
+    },
+    {
+        "title": "Light to Mod RainTS is very likely to occur at isol places over Clpattu, Chenn, Coim, Cuddalore, Dindi, Kalla, Kanche, Kanyai, Karur, M, Mayi, Nagapam, Puduk, Ranipet, Salem, Siva, Tenkasi, Thanj,  Nilgiris, Tvallur, Tvarur, Thoot, T, Tveli, Tirulai, Vellore, Vilu, Virudr, Karail, Pond in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-24T16:24:43+05:30",
+        "areas": "Chengalpattu, Chennai, Coimbatore, Cuddalore, Dindigul, Kallakurichi, Kancheepuram, Kanniyakumari, Karur, Madurai, Mayiladuthurai, Nagappattinam, Pudukkottai, Ranipet, Salem, Sivaganga, Tenkasi, Thanjavur, The Nilgiris, Thiruvallur, Thiruvarur, Thoothukkudi, Tiruchirappalli, Tirunelveli, Tiruvannamalai, Vellore, Viluppuram, Virudhunagar districts of Tamil Nadu",
+        "first_coord": [
+            12.783218,
+            80.255622
+        ]
+    },
+    {
+        "title": "Light Rain with TS is very likely to occur at isolated places over Ariyalur, Chengalpattu, Chennai, Dharmapuri, Dindigul, Kancheepuram, Krishnagiri, Madurai, Namakkal, Ramanathapuram, Ranipet, Salem, Thiruvallur, Thiruvarur, Tiruvannamalai, Vellore in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Rain",
+        "timestamp": "2025-11-24T13:40:00+05:30",
+        "areas": "Ariyalur, Chengalpattu, Chennai, Dharmapuri, Dindigul, Kancheepuram, Krishnagiri, Madurai, Namakkal, Ramanathapuram, Ranipet, Salem, Thiruvallur, Thiruvarur, Tiruvannamalai, Vellore districts of Tamil Nadu",
+        "first_coord": [
+            12.783218,
+            80.255622
+        ]
+    },
+    {
+        "title": "Squally weather with strong surface wind 35-45 Kmph gusting to 55 kmph very likely along and off Andaman and Nicobar coast. Sea conditions are very likely to be rough. Fishermen are advised not to venture into the sea from 24-11-2025 to 28-11-2025.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Squally",
+        "timestamp": "2025-11-24T13:31:21+05:30",
+        "areas": "Nicobars,North And Middle Andaman,South Andamans districts of Andaman and Nicobar Islands",
+        "first_coord": [
+            7.003088,
+            93.947667
+        ]
+    },
+    {
+        "title": "Light Rain with TS is very likely to occur at isolated places over Ariyalur, Chengalpattu, Chennai, Dharmapuri, Dindigul, Kancheepuram, Krishnagiri, Madurai, Namakkal, Ramanathapuram, Ranipet, Salem, Thiruvallur, Thiruvarur, Tiruvannamalai, Vellore in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Rain",
+        "timestamp": "2025-11-24T13:40:00+05:30",
+        "areas": "Ariyalur, Chengalpattu, Chennai, Dharmapuri, Dindigul, Kancheepuram, Krishnagiri, Madurai, Namakkal, Ramanathapuram, Ranipet, Salem, Thiruvallur, Thiruvarur, Tiruvannamalai, Vellore districts of Tamil Nadu",
+        "first_coord": [
+            11.227575,
+            79.510902
+        ]
+    },
+    {
+        "title": "Moderate Rain with Thunderstorm is very likely to occur at a few places over Ariyalur, Cuddalore, Mayiladuthurai, Nagappattinam, Thanjavur, Thiruvarur, Karaikal in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-24T10:08:21+05:30",
+        "areas": "Ariyalur, Cuddalore, Mayiladuthurai, Nagappattinam, Thanjavur, Thiruvarur districts of Tamil Nadu",
+        "first_coord": [
+            11.227575,
+            79.510902
+        ]
+    },
+    {
+        "title": "Thunderstorm with Heavy rainfall  gusty winds speed reaching 40 Kmph is likely at one or two places in the district of Lakshadweep",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Heavy Rain",
+        "timestamp": "2025-11-24T06:11:33+05:30",
+        "areas": "Lakshadweep District district of Lakshadweep",
+        "first_coord": [
+            8.281502,
+            73.063524
+        ]
+    },
+    {
+        "title": "Moderate Rain with thunder is very likely to occur at a few places over Ariyalur, Cuddalore, Kanniyakumari, Mayiladuthurai, Nagappattinam, Pudukkottai, Ramanathapuram, Sivaganga, Tenkasi, Thanjavur, Thiruvarur, Thoothukkudi, Tiruchirappalli, Tirunelveli, Viluppuram, Karaikal, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-23T19:08:13+05:30",
+        "areas": "Ariyalur, Cuddalore, Kanniyakumari, Mayiladuthurai, Nagappattinam, Pudukkottai, Ramanathapuram, Sivaganga, Tenkasi, Thanjavur, Thiruvarur, Thoothukkudi, Tiruchirappalli, Tirunelveli, Viluppuram districts of Tamil Nadu",
+        "first_coord": [
+            11.889358,
+            79.792071
+        ]
+    },
+    {
+        "title": "Very Heavy Rain is very likely to occur at isolated places over Kollam, Thiruvananthapuram in next 24 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Very Heavy Rain",
+        "timestamp": "2025-11-23T16:39:23+05:30",
+        "areas": "Kollam, Thiruvananthapuram districts of Kerala",
+        "first_coord": [
+            8.840889,
+            77.259464
+        ]
+    },
+    {
+        "title": "Moderate Rain with thunderstorm is very likely to occur at a few places over Ariyalur, Madurai, Nagappattinam, Pudukkottai, Ranipet, Thiruvallur, Tiruvannamalai, Vellore, Virudhunagar in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-23T16:13:14+05:30",
+        "areas": "Ariyalur, Madurai, Nagappattinam, Pudukkottai, Ranipet, Thiruvallur, Tiruvannamalai, Vellore, Virudhunagar districts of Tamil Nadu",
+        "first_coord": [
+            11.227575,
+            79.510902
+        ]
+    },
+    {
+        "title": "Heavy  rain (07-11 cm) accompanied with thunderstorm and lightning are very likely to occur at one or two places over Nicobar Islands in the next 24 hours. People are advised to stay at safe places.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Heavy Rain",
+        "timestamp": "2025-11-21T12:06:45+05:30",
+        "areas": "Nicobars district of Andaman and Nicobar Islands",
+        "first_coord": [
+            7.003088,
+            93.947667
+        ]
+    },
+    {
+        "title": "Light to Mod Rain TS is likely to occur at isolated places over Ariyalur, Cpattu, Cudalore, Drmpuri, Erode, Kallakurichi, Kanche, Kayaku, Krishgi, Mayiladu, Nagaptinam, Ranipet, Thanjur, Thiruvallur, Thiruvarur, Thothu, Tiruveli, Tirupathur, Tiruvannamalai, Vellore, Vpuram, Karai, Pondic in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-23T10:12:08+05:30",
+        "areas": "Ariyalur, Chengalpattu, Cuddalore, Dharmapuri, Erode, Kallakurichi, Kancheepuram, Kanniyakumari, Krishnagiri, Mayiladuthurai, Nagappattinam, Ranipet, Thanjavur, Thiruvallur, Thiruvarur, Thoothukkudi, Tirunelveli, Tirupathur, Tiruvannamalai, Vellore, Viluppuram districts of Tamil Nadu",
+        "first_coord": [
+            11.227575,
+            79.510902
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain with Thunderstorm is likely to occur at isolated places over Ariyalur, Cuddalore, Kallakurichi, Kanniyakumari, Mayiladuthurai, Perambalur, Tenkasi, Thiruvallur, Tirunelveli, Viluppuram districts and  Pondicherry,Karaikal area  in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-23T04:13:05+05:30",
+        "areas": "Karaikal,Pondicherry districts of Puducherry",
+        "first_coord": [
+            10.836902,
+            79.860716
+        ]
+    },
+    {
+        "title": "Thunder shower with strong wind is likely to occur at isolated places over Dakshina Kannada, Kodagu, Udupi, Uttara Kannada in next 3 hours. Source: IMD-Bengaluru",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunder shower with strong wind",
+        "timestamp": "2025-11-23T01:09:34+05:30",
+        "areas": "4 districts of Karnataka",
+        "first_coord": [
+            13.182111,
+            75.355924
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain with Thunderstorms and Lightning is likely to occur at isolated places over Chengalpattu, Chennai, Nagappattinam, Pudukkottai, Ramanathapuram, Ranipet, Sivaganga, Thanjavur, Thiruvallur, Thiruvarur, Vellore, Karaikal in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Thunderstorms",
+        "timestamp": "2025-11-22T12:53:53+05:30",
+        "areas": "Chengalpattu, Chennai, Nagappattinam, Pudukkottai, Ramanathapuram, Ranipet, Sivaganga, Thanjavur, Thiruvallur, Thiruvarur, Vellore districts of Tamil Nadu",
+        "first_coord": [
+            9.147604,
+            79.447941
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain with Thunderstorms is likely to occur at isolated places over Ariyalur, Cuddalore, Kallakurichi, Kancheepuram, Karur, Madurai, Salem, Theni, Tiruvannamalai, Vellore, Viluppuram, Virudhunagar, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Thunderstorms",
+        "timestamp": "2025-11-22T12:46:08+05:30",
+        "areas": "Ariyalur, Cuddalore, Kallakurichi, Kancheepuram, Karur, Madurai, Salem, Theni, Tiruvannamalai, Vellore, Viluppuram, Virudhunagar districts of Tamil Nadu",
+        "first_coord": [
+            11.889358,
+            79.792071
+        ]
+    },
+    {
+        "title": "light to Moderate Rain with TS is likely to occur at isolated places over Coimbatore, Cuddalore, Dharmapuri, Kallakurichi, Kanniyakumari, Krishnagiri, Mayiladuthurai, Nagappattinam, Teni, Dindigal,Nilgiris, Thoothukkudi, Tirunelveli, Tiruvannamalai, Viluppuram, Karaikal, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-22T07:11:50+05:30",
+        "areas": "Coimbatore, Cuddalore, Dharmapuri, Dindigul, Kallakurichi, Kanniyakumari, Krishnagiri, Mayiladuthurai, Nagappattinam, Theni, The Nilgiris, Thoothukkudi, Tirunelveli, Tiruvannamalai, Viluppuram districts of Tamil Nadu",
+        "first_coord": [
+            10.813262,
+            77.297465
+        ]
+    },
+    {
+        "title": "Light Rain is likely to occur at isolated places over Ariyalur, Chengalpattu, Chennai, Cuddalore, Dindigul, Kallakurichi, Kanchee, Kanyakumari, Karur, Madurai, Mayiladuthurai, Nagappattinam, Namakkal, Perambalur, Pudukkottai, Ramanathapuram, Ranipet, Salem, Sivaganga, Tenkasi, Thanjavur in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Rain",
+        "timestamp": "2025-11-22T03:56:18+05:30",
+        "areas": "Ariyalur, Chengalpattu, Chennai, Cuddalore, Dindigul, Kallakurichi, Kancheepuram, Kanniyakumari, Karur, Madurai, Mayiladuthurai, Nagappattinam, Namakkal, Perambalur, Pudukkottai, Ramanathapuram, Ranipet, Salem, Sivaganga, Tenkasi, Thanjavur districts of Tamil Nadu",
+        "first_coord": [
+            11.227575,
+            79.510902
+        ]
+    },
+    {
+        "title": "light/Moderate Rain TS is very likely to occur at isolated places over Chengalpattu, Chennai, Cuddalore, Kanche, Kanyakumari, Mayiladuthurai, Nagapatnam, Pudukkottai, Ramanathapuram, Tenkasi, Thanjur, Thiruvallur, Thiruvarur, Thoothukkudi, Tirunelveli, Viluppuram, Karaikal, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-22T01:13:04+05:30",
+        "areas": "Chengalpattu, Chennai, Cuddalore, Kancheepuram, Kanniyakumari, Mayiladuthurai, Nagappattinam, Pudukkottai, Ramanathapuram, Tenkasi, Thanjavur, Thiruvallur, Thiruvarur, Thoothukkudi, Tirunelveli, Viluppuram districts of Tamil Nadu",
+        "first_coord": [
+            12.783218,
+            80.255622
+        ]
+    },
+    {
+        "title": "Thunder shower with strong wind is likely to occur at isolated places over Bangalore, Bangalore Rural, Chikkaballapura, Kolar, Mysore, Ramanagara in next 3 hours.Source:-IMD Bengaluru",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunder shower with strong wind",
+        "timestamp": "2025-11-21T19:15:04+05:30",
+        "areas": "6 districts of Karnataka",
+        "first_coord": [
+            13.566153,
+            78.199605
+        ]
+    },
+    {
+        "title": "Light to moderate rain withi thunderstorm s likely to occur at a few places over Ariyalur, Chengalpattu, Chennai, Cuddalore, Kallakurichi, Kancheepuram, Mayiladuthurai, Nagappattinam, Perambalur, Pudukkottai, Ramanathapuram, Ranipet, Thanjavur, Thiruvallur, Thiruvarur, Tiruvannamalai, Viluppuram,",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-21T13:11:45+05:30",
+        "areas": "Karaikal,Pondicherry districts of Puducherry",
+        "first_coord": [
+            10.836902,
+            79.860716
+        ]
+    },
+    {
+        "title": "Cold Wave is likely to occur at isolated places over Bhopal, Indore, Khandwa (East Nimar), Khargone (West Nimar), Narsimhapur, Rajgarh, Sehore, Shajapur in next 24 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Cold Wave",
+        "timestamp": "2025-11-21T11:32:44+05:30",
+        "areas": "8 districts of Madhya Pradesh",
+        "first_coord": [
+            23.717138,
+            77.658437
+        ]
+    },
+    {
+        "title": "Moderate Rain with thunderstorma and lightning is very likely to occur at isolated places over  Chengalpattu, Cuddalore,Viluppuram, Ariyalur, Mayiladuthurai, Nagappattinam, Thanjavur, Thiruvarur districts of Tamilnadu, Karaikal and Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-21T04:10:52+05:30",
+        "areas": "Karaikal,Pondicherry districts of Puducherry",
+        "first_coord": [
+            10.836902,
+            79.860716
+        ]
+    },
+    {
+        "title": "Cold wave conditions very likely to prevail at isolated pockets in Adilabad, KomuramBheem Asifabad, Nirmal, Nizamabad, Sangareddy, Medak, Kamareddy districts in next 24 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Cold Wave",
+        "timestamp": "2025-11-19T12:52:50+05:30",
+        "areas": "Adilabad, Kamareddy, Kumuram Bheem, Medak, Nirmal, Nizamabad, Sangareddy districts of Telangana",
+        "first_coord": [
+            18.212593,
+            78.212112
+        ]
+    },
+    {
+        "title": "Light to Modearte Rain with Thunderstorm and Lightning is likely to occur at isolated places over Kallakurichi, Krishnagiri, Ramanathapuram, Salem, Thoothukkudi in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-19T01:08:36+05:30",
+        "areas": "Kallakurichi, Krishnagiri, Ramanathapuram, Salem, Thoothukkudi districts of Tamil Nadu",
+        "first_coord": [
+            9.147604,
+            79.447941
+        ]
+    },
+    {
+        "title": "Moderate Rain with Thunderstorm and Lightning is very likely to occur at a few places over Chengalpattu, Chennai, Cuddalore, Kancheepuram, Ranipet, Thiruvallur, Tiruvannamalai, Viluppuram, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-18T16:06:24+05:30",
+        "areas": "Pondicherry district of Puducherry",
+        "first_coord": [
+            11.920387,
+            79.670831
+        ]
+    },
+    {
+        "title": "Light/Moderate Rain,Ts is likely to occur at isol  places over Ariyalur, Chengalpattu, Chennai, Cuddalore, Kancheepuram, Kanniyakumari, Mayiladuthurai, Nagai, Perambalur, Pudukkottai, Ramanad, Sivaganga, Tenkasi, Thanjai, Thiruvallur, Thiruvarur, Tirunelveli, Viluppuram, Karaikal, Puduvai in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-17T18:54:03+05:30",
+        "areas": "Karaikal,Pondicherry districts of Puducherry",
+        "first_coord": [
+            10.836903,
+            79.860717
+        ]
+    },
+    {
+        "title": "Cold Wave is likely to occur at isolated places over Balrampur, Durg, Gaurella Pendra Marwahi, Jashpur, Kabeerdham, Khairgarh Chhuikhadan Gandai, Koriya, Manendragarh Chirimiri Bharatpur, Mungeli, Rajnandgaon, Surajpur, Surguja in next 24 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Cold Wave",
+        "timestamp": "2025-11-16T12:07:25+05:30",
+        "areas": "Balrampur, Durg, Gaurella Pendra Marwahi, Jashpur, Kabeerdham, Khairgarh Chhuikhadan Gandai, Koriya, Manendragarh Chirimiri Bharatpur, Mungeli, Rajnandgaon, Surajpur, Surguja districts of Chhattisgarh",
+        "first_coord": [
+            23.332822,
+            84.081024
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain with Light Thunderstorm and lightning is very likely to occur at isolated places over Chennai, Kancheepuram, Perambalur, Pudukkottai, Ramanathapuram, Thiruvallur, Tiruchirappalli, Tiruvannamalai in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-17T07:12:38+05:30",
+        "areas": "Chennai, Perambalur, Pudukkottai, Ramanathapuram, Thiruvallur, Tiruchirappalli, Tiruvannamalai districts of Tamil Nadu",
+        "first_coord": [
+            13.302891,
+            80.359257
+        ]
+    },
+    {
+        "title": "Heavy to Very Heavy Rain is likely to occur at isolated places over Cuddalore, Mayiladuthurai, Nagappattinam, Thiruvarur districts and Karaikal area in the 24 hours ending 0830 IST of 17 Nov 2025.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Very Heavy Rain",
+        "timestamp": "2025-11-16T15:09:08+05:30",
+        "areas": "Karaikal district of Puducherry",
+        "first_coord": [
+            10.836903,
+            79.860717
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain Thunderstorms  likely at isolated places over Chengalpatu,Chennai,Cudalore,Kallakurichi,Kanchipuram,Kanyakumari,Perambalur,Ramanathapuram,Ranipet,Sivaganga,Tenkasi, Tiruvallur, Tuthukkudi, Tirunelveli,Tiruvannamalai,Vellore,Vilupuram, Virudhunagar, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Thunderstorms",
+        "timestamp": "2025-11-13T15:59:41+05:30",
+        "areas": "Pondicherry district of Puducherry",
+        "first_coord": [
+            11.804076,
+            79.693508
+        ]
+    },
+    {
+        "title": "Thunderstorm with Moderate rainfall (5-15mm/hr) and gusty wind speed reaching 40 kmph is very likely to occur at isolated places over Kollam, Kottayam, Pathanamthitta, Thiruvananthapuram, Thrissur in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunderstorm",
+        "timestamp": "2025-11-12T22:22:19+05:30",
+        "areas": "Kollam, Kottayam, Pathanamthitta, Thiruvananthapuram, Thrissur districts of Kerala",
+        "first_coord": [
+            8.542604,
+            77.274261
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain along with Thunderstorm and lightning  is very likely to occur at isolated places over Ariyalur, Cuddalore, Dharmapuri, Dindigul, Pudukkottai, Ramanathapuram, Salem, Thiruvarur, Thoothukkudi, Tirunelveli, Tiruvannamalai, Viluppuram, Pondicherry in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-06T04:35:13+05:30",
+        "areas": "Pondicherry district of Puducherry",
+        "first_coord": [
+            11.804076,
+            79.693508
+        ]
+    },
+    {
+        "title": "Light to moderate Rain with Light Thunderstorms is very likely to occur at a few places over Dhalai, North Tripura, Unakoti in next 30 mints to 1 hour.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Thunderstorms",
+        "timestamp": "2025-11-05T23:35:56+05:30",
+        "areas": "Dhalai,North Tripura,Unakoti districts of Tripura",
+        "first_coord": [
+            23.742802,
+            92.174124
+        ]
+    },
+    {
+        "title": "Light to Moderate Light Thunderstorms is likely to occur at isolated places over Chengalpattu, Chennai, Dharmapuri, Dindigul, Erode, Madurai, Ramanathapuram, Salem, Sivaganga, Theni, Thoothukkudi, Tiruppur, Tiruvannamalai, Virudhunagar in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Thunderstorms",
+        "timestamp": "2025-11-05T15:47:46+05:30",
+        "areas": "Chengalpattu, Chennai, Dharmapuri, Dindigul, Erode, Madurai, Ramanathapuram, Salem, Sivaganga, Theni, Thoothukkudi, Tiruppur, Tiruvannamalai, Virudhunagar districts of Tamil Nadu",
+        "first_coord": [
+            12.783218,
+            80.255622
+        ]
+    },
+    {
+        "title": "Moderate Rain Thunderstorm with Lightning is likely to occur at isolated places over Coimbatore, Krishnagiri, Tenkasi, The Nilgiris, Thiruvallur, Tirupathur, Vellore in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunderstorm with Lightning",
+        "timestamp": "2025-11-05T15:39:35+05:30",
+        "areas": "Coimbatore, Krishnagiri, Tenkasi, The Nilgiris, Thiruvallur, Tirupathur, Vellore districts of Tamil Nadu",
+        "first_coord": [
+            12.354016,
+            78.703162
+        ]
+    },
+    {
+        "title": "Moderate Rain/ Thundershowers accompanied with gusty winds 30-40kmph is very likely to occur at a few places over Nagarkurnool, in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-05T14:43:33+05:30",
+        "areas": "tsra",
+        "first_coord": [
+            16.861414,
+            78.777375
+        ]
+    },
+    {
+        "title": "Thundering with Lightning, Gusty winds(30-40 Kmph)  is very likely to occur  at isolated places over ADL, HYD, JGLG, KUM, Mahbubnagar, Mancherial, MDCL, NGKL, Nalgonda, Narayanpet, Nirmal, NZD, RR, SGD, Suryapet, VKD, WNP in next 24 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Lightning, Gusty winds",
+        "timestamp": "2025-11-05T13:49:04+05:30",
+        "areas": "Adilabad, Hyderabad, Jogulamba Gadwal, Kumuram Bheem, Mahbubnagar, Mancherial, Medchal-Malkajgiri, Nagarkurnool, Nalgonda, Narayanpet, Nirmal, Nizamabad, Ranga Reddy, Sangareddy, Suryapet, Vikarabad, Wanaparthy districts of Telangana",
+        "first_coord": [
+            17.483891,
+            78.507422
+        ]
+    },
+    {
+        "title": "Light to Moderate Rain accompanied by Thunderstorm and lightning is very likely to continue/occur  at a few places over Sipahijala, West Tripura for  next 1-2 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-05T07:37:44+05:30",
+        "areas": "Sipahijala,West Tripura districts of Tripura",
+        "first_coord": [
+            23.272953,
+            91.317112
+        ]
+    },
+    {
+        "title": "(05-11-2025/ 00:20 IST) Thunderstorm with Lightning is likely to occur at isolated places over Bageshwar, Chamoli, Dehradun (Hills), Pithoragarh, Rudra Prayag, Tehri Garhwal, Uttar Kashi in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunderstorm with Lightning",
+        "timestamp": "2025-11-05T00:25:22+05:30",
+        "areas": "Uttarkashi, Rudraprayag, Chamoli, Bageshwar, Pithoragarh, Tehri, Dehradun Hills",
+        "first_coord": [
+            30.973044,
+            77.809085
+        ]
+    },
+    {
+        "title": "Thunderstorm with light to moderate rain is likely to occur at a few places over Churu, Hanumangarh, Jhunjhunu in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Thunderstorm",
+        "timestamp": "2025-11-04T16:17:04+05:30",
+        "areas": "Churu,Hanumangarh,Jhunjhunu districts of Rajasthan",
+        "first_coord": [
+            28.514756,
+            75.679002
+        ]
+    },
+    {
+        "title": "Light Rain is very likely to occur at isolated places over Bharuch, Chhota Udaipur, Dohad, Narmada, Panch Mahals, Tapi, The Dangs, Vadodara, Valsad, Dadra And Nagar Haveli, Daman in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Light Rain",
+        "timestamp": "2025-11-04T16:06:25+05:30",
+        "areas": "9 districts of Gujarat",
+        "first_coord": [
+            22.208072,
+            72.872005
+        ]
+    },
+    {
+        "title": "Moderate Rain is very likely to occur at a few places over Karimnagar, Siddipet, Hyderabad, Mahbubnagar, Nagarkurnool, Nalgonda, Ranga Reddy in next 3 hours.",
+        "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1762246218989028",
+        "event": "Moderate Rain",
+        "timestamp": "2025-11-04T15:47:56+05:30",
+        "areas": "MOD RAIN",
+        "first_coord": [
+            18.346206,
+            79.541039
+        ]
+    }
+]

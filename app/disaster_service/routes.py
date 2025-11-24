@@ -5,7 +5,7 @@ from app.models import user_disaster_model
 from datetime import datetime, timedelta, timezone
 import requests
 import xml.etree.ElementTree as ET
-from app.disaster_service.utils import find_request, write_request, update_request, add_responders, delete_request, extract_first_coordinate, get_unique_disaster_list, sort_alerts_by_proximity
+from app.disaster_service.utils import find_request, write_request, update_request, add_responders, delete_request, extract_first_coordinate, get_unique_disaster_list, sort_alerts_by_proximity, dump_alerts_to_json, read_alerts_from_json
 from app.auth_service.utils import find_user, update_db
 
 SACHET_FEED_URL = "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml"
@@ -20,6 +20,16 @@ def get_disasters():
         latitude = data["latitude"]
         longitude = data["longitude"]
 
+        unique_alerts = read_alerts_from_json()
+        unique_alerts = sort_alerts_by_proximity(unique_alerts, latitude, longitude)
+        # Return as JSON
+        return jsonify(unique_alerts), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+@disaster.route("/cron_job", methods=["GET"])
+def make_json_disasters():
+    try:
         # Fetch the CAP feed
         response = requests.get(SACHET_FEED_URL)
         response.raise_for_status() # raise an exception if the HHTP request failed (status code != 200) so my code do not work with bad or empty data...
@@ -70,12 +80,12 @@ def get_disasters():
                 "first_coord": first_coord
             })
 
-        unique_alerts = sort_alerts_by_proximity(unique_alerts, latitude, longitude)
+        dump_alerts_to_json(unique_alerts, filename="disaster_alerts.json")
         # Return as JSON
-        return jsonify(unique_alerts), 200
+        return jsonify({"message": "JSON Updated"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+   
 
 @disaster.route("/report_disaster", methods=["POST"])
 def report_disaster():
