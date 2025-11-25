@@ -31,9 +31,12 @@ def update_request(id: str, keys: List[str], values):
     
 def add_responders(id: str, values):
     try:
+        # If values is a list with a single item, push just that item
+        # Otherwise push values directly
+        push_value = values[0] if isinstance(values, list) and len(values) == 1 else values
         mongo.db.disaster_requests.update_one(
             {"_id": id},
-            {"$push": {"active_responders": values}}
+            {"$push": {"active_responders": push_value}}
         )
     except Exception as e:
         raise InternalServerError(description=f"Failed to add active responder: {e}")
