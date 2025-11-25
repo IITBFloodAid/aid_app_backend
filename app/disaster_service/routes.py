@@ -13,7 +13,7 @@ SACHET_FEED_URL = "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.x
 @disaster.route("/get_data", methods=["POST"])
 def get_disasters():
     try:
-        data = request.get_json() # returns a python dict...
+        data = request.get_json()
         if not data:
             return jsonify({"error": "No JSON body found"}), 400
         
@@ -21,59 +21,90 @@ def get_disasters():
         longitude = data["longitude"]
 
         # Fetch the CAP feed
-        response = requests.get(SACHET_FEED_URL)
-        response.raise_for_status() # raise an exception if the HHTP request failed (status code != 200) so my code do not work with bad or empty data...
+        response = requests.get(SACHET_FEED_URL, timeout=10)
+        response.raise_for_status()
         xml_data = response.text
         
-        # Parse XML
-        root = ET.fromstring(xml_data)
+        if not xml_data.strip():
+            return jsonify({"error": "RSS feed is empty"}), 500
+        
+        try:
+            root = ET.fromstring(xml_data)
+        except ET.ParseError:
+            return jsonify({"error": "Invalid XML in RSS feed"}), 500
 
         unique_alerts = []
-        
         temp = {}
         for item in root.findall("./channel/item"):
-            title = item.find("title").text.strip()
-            link = item.find("link").text.strip()
+            title_elem = item.find("title")
+            link_elem = item.find("link")
+            if title_elem is None or link_elem is None:
+                continue
+            title = title_elem.text.strip()
+            link = link_elem.text.strip()
             temp[title] = link
         
         unique_headlines_with_link = get_unique_disaster_list(temp)
-        
-        for headline in unique_headlines_with_link:
-            # Fetch the CAP XML page
-            cap_resp = requests.get(unique_headlines_with_link[headline])
-            cap_resp.raise_for_status()
-            cap_root = ET.fromstring(cap_resp.text)
-            
-            # # Namespaces used in CAP XML
-            ns = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 
-            # Extract event, headline, instruction, areaDesc, polygon, timestamp
-            info = cap_root.find("cap:info", ns)
-            if info is None:
+        count = 0
+        for headline, link in unique_headlines_with_link.items():
+            try:
+                cap_resp = requests.get(link, timeout=5)
+                cap_resp.raise_for_status()
+                if not cap_resp.text.strip():
+                    print(f"Skipping empty CAP XML for {headline}")
+                    continue
+
+                try:
+                    cap_root = ET.fromstring(cap_resp.text)
+                except ET.ParseError:
+                    print(f"Skipping invalid CAP XML at {link}")
+                    continue
+
+                # Namespaces used in CAP XML
+                ns = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
+
+                # Extract event, headline, instruction, areaDesc, polygon, timestamp
+                info = cap_root.find("cap:info", ns)
+                if info is None:
+                    continue
+
+                event_elem = info.find("cap:event", ns)
+                event = event_elem.text.strip() if event_elem is not None else ""
+
+                headline_elem = info.find("cap:headline", ns)
+                headline_text = headline_elem.text.strip() if headline_elem is not None else ""
+
+                area_elem = info.find("cap:area/cap:areaDesc", ns)
+                area_desc = area_elem.text.strip() if area_elem is not None else ""
+
+                polygon_elem = info.find("cap:area/cap:polygon", ns)
+                first_coord = extract_first_coordinate(polygon_elem.text if polygon_elem is not None else "")
+
+                timestamp_elem = cap_root.find("cap:sent", ns)
+                timestamp = timestamp_elem.text.strip() if timestamp_elem is not None else ""
+
+                unique_alerts.append({
+                    "title": headline_text,
+                    "link": link,
+                    "event": event,
+                    "timestamp": timestamp,
+                    "areas": area_desc,
+                    "first_coord": first_coord
+                })
+                count = count+1
+                if count == 10:
+                    break
+
+            except requests.RequestException as e:
+                print(f"Request failed for {headline}: {e}")
                 continue
-            
-            event = info.find("cap:event", ns).text.strip()
-            headline = info.find("cap:headline", ns).text.strip()
-            area_elem = info.find("cap:area/cap:areaDesc", ns)
-            area_desc = area_elem.text.strip() if area_elem is not None else ""
-            polygon_elem = info.find("cap:area/cap:polygon", ns)
-            first_coord = extract_first_coordinate(polygon_elem.text if polygon_elem is not None else "")
-            timestamp_elem = cap_root.find("cap:sent", ns)
-            timestamp = timestamp_elem.text.strip() if timestamp_elem is not None else ""
-            # Add to result
-            unique_alerts.append({
-                "title": headline,
-                "link": link,
-                "event": event,
-                "timestamp": timestamp,
-                "areas": area_desc,
-                "first_coord": first_coord
-            })
 
         unique_alerts = sort_alerts_by_proximity(unique_alerts, latitude, longitude)
-        # Return as JSON
         return jsonify(unique_alerts), 200
+
     except Exception as e:
+        print(e)
         return jsonify({"error": str(e)}), 500
     
 
