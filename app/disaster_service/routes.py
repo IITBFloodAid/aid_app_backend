@@ -20,16 +20,6 @@ def get_disasters():
         latitude = data["latitude"]
         longitude = data["longitude"]
 
-        unique_alerts = read_alerts_from_json()
-        unique_alerts = sort_alerts_by_proximity(unique_alerts, latitude, longitude)
-        # Return as JSON
-        return jsonify(unique_alerts), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-    
-@disaster.route("/cron_job", methods=["GET"])
-def make_json_disasters():
-    try:
         # Fetch the CAP feed
         response = requests.get(SACHET_FEED_URL)
         response.raise_for_status() # raise an exception if the HHTP request failed (status code != 200) so my code do not work with bad or empty data...
@@ -80,12 +70,11 @@ def make_json_disasters():
                 "first_coord": first_coord
             })
 
-        dump_alerts_to_json(unique_alerts, filename="disaster_alerts.json")
+        unique_alerts = sort_alerts_by_proximity(unique_alerts, latitude, longitude)
         # Return as JSON
-        return jsonify({"message": "JSON Updated"}), 200
+        return jsonify(unique_alerts), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-   
 
 @disaster.route("/report_disaster", methods=["POST"])
 def report_disaster():
