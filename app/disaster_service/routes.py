@@ -5,7 +5,7 @@ from app.models import user_disaster_model
 from datetime import datetime, timedelta, timezone
 import requests
 import xml.etree.ElementTree as ET
-from app.disaster_service.utils import find_request, write_request, update_request, add_responders, delete_request, extract_first_coordinate, get_unique_disaster_list, sort_alerts_by_proximity
+from app.disaster_service.utils import find_request, write_request, update_request, add_responders, delete_request, extract_first_coordinate, get_unique_disaster_list, sort_alerts_by_proximity, dump_alerts_to_json, read_alerts_from_json
 from app.auth_service.utils import find_user, update_db
 
 SACHET_FEED_URL = "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml"
@@ -106,7 +106,6 @@ def get_disasters():
     except Exception as e:
         print(e)
         return jsonify({"error": str(e)}), 500
-    
 
 @disaster.route("/report_disaster", methods=["POST"])
 def report_disaster():

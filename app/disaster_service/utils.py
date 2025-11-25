@@ -3,6 +3,8 @@ from app.database import mongo
 from typing import List
 from rapidfuzz import fuzz
 from math import radians, cos, sin, asin, sqrt
+import os
+import json
 
 def find_request(key_name: str, value: str):
     try:
@@ -125,3 +127,39 @@ def sort_alerts_by_proximity(alerts: list, target_lat: float, target_lon: float)
         alert.pop("distance", None)
 
     return alerts
+
+def dump_alerts_to_json(alerts, filename="disaster_alerts.json"):
+    """
+    Dumps a list of disaster alerts to a JSON file in the resources folder.
+    
+    Args:
+        alerts (list): List of alert dictionaries.
+        filename (str): Name of the JSON file to create.
+    """
+    resources_dir = os.path.join(os.path.dirname(__file__), "..", "resources")
+    os.makedirs(resources_dir, exist_ok=True)  # ensure folder exists
+    filepath = os.path.join(resources_dir, filename)
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(alerts, f, ensure_ascii=False, indent=4)
+    
+    return filepath
+
+def read_alerts_from_json(filename="disaster_alerts.json"):
+    """
+    Reads disaster alerts from a JSON file in the resources folder.
+    
+    Args:
+        filename (str): Name of the JSON file to read.
+    
+    Returns:
+        list: List of alert dictionaries, or empty list if file doesn't exist.
+    """
+    resources_dir = os.path.join(os.path.dirname(__file__), "..", "resources")
+    filepath = os.path.join(resources_dir, filename)
+    
+    if not os.path.exists(filepath):
+        return []  # no file yet
+    
+    with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
